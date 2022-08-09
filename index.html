@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dados Pessoais</title>
+</head>
+    <body>
+        <form>
+            <!---->
+            <label>NOME:</label><br>
+            <input type="text" name="nome"><br>
+            <!---->
+            <label>SOBRENOME:</label><br>
+            <input type="text" name="nome">
+            <!---->
+            <p>CPF:</p>
+            <input type="text" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}"> 
+            <p>RG:</p>
+            <input type="text" pattern="\d{2}\.\d{3}\.\d{3}-\d{2}">
+            <!---->
+            <p>SEXO</p>
+            <input type="radio" id="Homem" name="nome" value="Homem">
+            <label>Homem</label><br>
+            <input type="radio" id="Mulher" name="nome" value="Mulher">
+            <label>Mulher</label><br>
+            <input type="radio" id="Mulher" name="nome" value="Mulher">
+            <label>100 vezes ao mes</label><br>
+            
+            <!---->
+            <p>Estado Civil</p>
+            <input type="radio" id="Solteiro(a)" name="nome" value="Solteiro(a)">
+            <label>Solteiro(a)</label><br>
+            <input type="radio" id="Casado(a)" name="nome" value="Casado(a)">
+            <label">Casado(a)</label><br>
+            <input type="radio" id="Viúvo(a)" name="nome" value="Viúvo(a)">
+            <label">Viúvo(a)</label><br>
+            <input type="radio" id="Separado(a)" name="nome" value="Separado(a)">
+            <label">Separado(a)</label><br>
+            <input type="radio" id="Separado(a)" name="nome" value="Separado(a)">
+            <label">Fincando Serio</label><br>
+            <!---->
+            <p>Lingua estrageira:</p>
+            <input type="checkbox" id="ingles" name="ingles">
+            <label for="ingles"> Inglês</label><br>
+            <input type="checkbox" id="espanhol" name="espanhol">
+            <label for="espanhol"> Espanhol</label><br>
+            <input type="checkbox" id="francês" name="francês">
+            <label for="francês"> Francês</label><br>
+            <input type="checkbox" id="francês" name="francês">
+            <label for="francês"> Arabe</label><br>
+            <input type="checkbox" id="mandarim" name="mandarim">
+            <label for="Mandarim"> Mandarim</label><br><br>
+                        <!---->
+            <label for="area">Area Profissional:</label>
+            <select id="area" name="area">
+            <option value="info">Sistema de informação</option>
+            <option value="adm">Administração</option>
+            <option value="eng">Engenharia</option>
+            <option value="sau">Enfermaria</option>
+            <option value="LOL">JOGADOR DE LOL</option>
+            </select> <br><br>
+
+            <textarea name="message" rows="10" cols="30">Faça uma breve descrição</textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+</html>
